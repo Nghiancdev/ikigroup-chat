@@ -14,12 +14,14 @@ export default {
   created() {
     // console.log( $cookies, ' $cookies')
     //Get from Cookie
-    this.$cookies.set("session", this.$route.query.token);
-    let dataSession = this.$cookies.get("session");
+    let dataSession;
+    if (this.$route.query.token) {
+      dataSession = this.$route.query.token;
+    } else {
+      dataSession = this.$cookies.get("session");
+    }
 
     console.log("token====", dataSession);
-    // console.log(dataCookie, 'coookiiii');
-    // let dataUser = localStorage.getItem("user");
     if (dataSession != "") {
       try {
         const config = {
