@@ -20,7 +20,7 @@ export default {
     console.log("token====", dataSession);
     // console.log(dataCookie, 'coookiiii');
     // let dataUser = localStorage.getItem("user");
-    if (dataSession === "") {
+    if (dataSession != "") {
       try {
         const config = {
           headers: {
