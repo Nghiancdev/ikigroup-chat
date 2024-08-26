@@ -1,5 +1,5 @@
 <template>
-  <List></List>
+  <List :customer_id="2002" :full_name="'Nguyễn Chí Nghĩa'"></List>
 </template>
 
 <script>
@@ -9,13 +9,6 @@ export default {
   name: "ListPage",
   components: {
     List,
-  },
-  created() {
-    if (!localStorage.getItem("user")) {
-      this.$router.push({
-        name: "login",
-      });
-    }
   },
 };
 </script>

@@ -1,6 +1,7 @@
 <template>
   <div style="width: 100%;">
     <router-view></router-view>
+    <ChatPopup />
   </div>
   <!-- <LoginForm></LoginForm> -->
 </template>
@@ -9,9 +10,13 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 // import { LoginForm } from "ikigroup-chat";
 // import "ikigroup-chat/dist/MyLibrary.css";
+import ChatPopup from './components/ChatPopup.vue';
 import axios from "axios";
 
 export default {
+  components: {
+    ChatPopup,
+  },
   created() {
     let dataSession;
     if (this.$route.query.token) {
