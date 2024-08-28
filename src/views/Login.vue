@@ -1,31 +1,27 @@
 <template>
   <div class="login-container">
     <h2>Login</h2>
-    <!-- Form đăng nhập hoặc nội dung khác -->
     <Login></Login>
-    <!-- Thêm ChatPopup -->
-    <!-- <ChatPopup /> -->
+    <ChatPopup :customer_id="'shipper6'" :user_role="'shipper'"></ChatPopup>
   </div>
 </template>
 
 <script>
-// import { LoginForm } from "ikigroup-chat";
-import { Login } from "ikigroup-chat";
-// import ChatPopup from "../components/ChatPopup";
+import { Login, ChatPopup } from "ikigroup-chat";
 
 export default {
   name: "LoginPage",
   components: {
     Login,
-    // ChatPopup,
+    ChatPopup,
   },
 
-  methods: {
-    moveToHome() {
-      this.$router.push({ name: "login" });
-      this.$router.go(this.$router.currentRoute);
-    },
-  },
+  // methods: {
+  //   moveToHome() {
+  //     this.$router.push({ name: "login" });
+  //     this.$router.go(this.$router.currentRoute);
+  //   },
+  // },
 };
 </script>
 <style scoped>

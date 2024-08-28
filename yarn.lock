@@ -4219,10 +4219,10 @@ ikigroup-chat@^0.1.6:
     vuex "^3.4.0"
     vuex-persisted "^0.0.1"
 
-ikigroup-chat@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/ikigroup-chat/-/ikigroup-chat-0.4.1.tgz#02b74ad26ebf60535d1b57d4abc9edc8d489ecaf"
-  integrity sha512-aXbgIUi34XvkXtrB3SvW4AmblPQYEBjsyifEXfVjXOSO585E4NsrXCBxmM4O9MtgCOuy+VKqtUVS0UxeQAFTHA==
+ikigroup-chat@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/ikigroup-chat/-/ikigroup-chat-0.5.0.tgz#ac8a4228d128d34cb1d6db9dffaa56df8ada9ac3"
+  integrity sha512-X/vmqX4pplfKIlvnWttM0O2cK6zICqCJUd9kkalkcWd1xS9ShundCs1VNQtaMZJc1RqqnVvWRxqoBGzQoyV/5Q==
   dependencies:
     "@lottiefiles/lottie-player" "^1.5.7"
     "@vue/tsconfig" "^0.1.3"
@@ -4238,6 +4238,42 @@ ikigroup-chat@^0.4.1:
     fs "^0.0.1-security"
     html-webpack-plugin "^5.5.0"
     ikigroup-chat "^0.1.6"
+    lodash "^4.17.21"
+    moment "^2.29.3"
+    plyr "3.6.4"
+    sass "^1.52.1"
+    socket.io "^4.5.1"
+    socket.io-client "^4.5.1"
+    state "^0.2.0"
+    typescript "^4.7.4"
+    vue "^2.7.14"
+    vue-cookies "^1.8.4"
+    vue-cool-lightbox "^2.7.4"
+    vue-router "^3.2.0"
+    vue-socket.io "^3.0.10"
+    vue-typescript "^0.7.0"
+    vuex "^3.4.0"
+    vuex-persisted "^0.0.1"
+
+ikigroup-chat@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/ikigroup-chat/-/ikigroup-chat-0.5.2.tgz#1987f54df69d1522f300a26ee95e9c8952c93c95"
+  integrity sha512-91lit0ERv68bSjQzqdqRvYF8CdNr7CFcc/HTX2sPliCgYFXiMMANqiIr/qIqon+UJ5crspMgNIudtqqLBD7++g==
+  dependencies:
+    "@lottiefiles/lottie-player" "^1.5.7"
+    "@vue/tsconfig" "^0.1.3"
+    axios "^0.27.2"
+    bootstrap "^5.1.3"
+    bootstrap-vue "^2.22.0"
+    compressorjs "^1.1.1"
+    core-js "^3.6.5"
+    css-loader "^6.7.1"
+    dotenv "^16.0.3"
+    emoji-mart-vue-fast "^10.2.2"
+    express "^4.18.2"
+    fs "^0.0.1-security"
+    html-webpack-plugin "^5.5.0"
+    ikigroup-chat "^0.5.0"
     lodash "^4.17.21"
     moment "^2.29.3"
     plyr "3.6.4"
