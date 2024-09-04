@@ -2,18 +2,18 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import VueCookies from "vue-cookies";
-// import { initializeSocket, getAuthCode } from "ikigroup-chat";
+import { initializeSocket, getAuthCode } from "ikigroup-chat";
 
 // setTimeout(() => {
 //   const userString = localStorage.getItem("user");
 //   console.log("authCode", JSON.parse(userString).auth_code);
 //   initializeSocket(JSON.parse(userString).auth_code);
 // }, 500);
-// const userString = getAuthCode();
+const userString = getAuthCode();
 
-// if (userString) {
-//   initializeSocket(userString);
-// }
+if (userString) {
+  initializeSocket(userString);
+}
 
 // if (authCode) {
 //   initializeSocket('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTYzNTYzNDEsImRhdGEiOnsiX2lkIjoiNjZjZGYwOWYyM2M4NDU3MGU4ZTUzODAyIiwia2V5IjoiZThlOTdlOGRmNTIzZTBiYTc2NjJiOWE2ZjhkNmM1MDUiLCJzaWduYXR1cmUiOiJkN2ZkNzEzMmQxZWQ1NmYyZjEzZDc0NTFkOGIxMzE0YyIsInNlc3Npb24iOiI2NmNlYWI3NWVlNDdlZWU0OTA2YzAxZmIifSwiaWF0IjoxNzI0ODIwMzQxfQ.f1m_6AuT70j6HNew75VCEGfBVNY5AEdd0bwMaA3JGCs');
