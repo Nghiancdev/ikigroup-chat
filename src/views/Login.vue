@@ -3,7 +3,11 @@
     <h2>Login</h2>
     <Login></Login>
     <ChatPopup v-if="showChatPopup"></ChatPopup>
-    <SyncUser :customer_id="'shipper6'" :user_role="'shipper'"></SyncUser>
+    <SyncUser
+      :customer_id="'shipper18'"
+      :full_name="'Nguyễn Chí Nghĩa'"
+      :user_role="'shipper'"
+    ></SyncUser>
   </div>
 </template>
 
