@@ -4291,10 +4291,10 @@ ikigroup-chat@^0.6.1:
     vuex "^3.4.0"
     vuex-persisted "^0.0.1"
 
-ikigroup-chat@^0.8.5:
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/ikigroup-chat/-/ikigroup-chat-0.8.5.tgz#0fde0cd2703010591776857e5376cf86148b7ff0"
-  integrity sha512-dlmaPZhreEkftirzsP/bjhv64xIt11sRYElEgD+qA6zLs1Aie54rBVUoVRg8YKlOsYMAGDQXIu5M/6pxOHwMlQ==
+ikigroup-chat@^0.8.6:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/ikigroup-chat/-/ikigroup-chat-0.8.6.tgz#82a9ac35271273afe3bf15b089f67f4822a3b10a"
+  integrity sha512-QCiY68iW/Jp+0Io67iuoYcE25jMHy4lZQDQLSYP1hd7ijZO3TSh31tFbEc+CoRRxAAGxrjToVhZNIdXLc6Sjeg==
   dependencies:
     "@lottiefiles/lottie-player" "^1.5.7"
     "@vue/tsconfig" "^0.1.3"
